@@ -21,6 +21,8 @@ import java.util.List;
 
 public class Guide extends AppCompatActivity {
 
+    //试试写个注释
+
     private LayoutInflater minflater;
     private FragmentTabHost mtabhost;
     private List<Tab> mtabs=new ArrayList<Tab>(3);

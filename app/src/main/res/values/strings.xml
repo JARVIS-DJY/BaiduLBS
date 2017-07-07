@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jarvis_dong</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">主页</string>
+    <string name="map">地图</string>
+    <string name="mine">关于作者</string>
+</resources>

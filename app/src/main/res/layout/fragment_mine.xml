@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background2"
+    tools:context="com.example.jarvis.jarvis_dong.fragment.MineFragment">
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@mipmap/background2"/>-->
+    <TextView
+        android:id="@+id/call"
+        android:layout_gravity="right"
+        android:text="点击这里联系我"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="#BFBFBF">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:src="@mipmap/iron"
+            />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="Jarvis_dong"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:text="董劲毅"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="by:一只爱捣鼓的小菜鸟(或者可以叫我艺术家)"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+</FrameLayout>
